@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+	<body>
+
+
+
+
+	    <div class="row">
+		<form id="add-cupcake">
+		    <div class="col">
+		<div class="form-group">
+		    <label for="flavor">flavor</label>
+		    <input name="flavor" id="flavor" class="form-control" type="text" value=""/>
+		</div>
+		    </div>
+		    <div class="form-group col">
+		    <label for="size">size</label>
+		    <input name="size" id="size" class="form-control" type="text" value=""/>
+		</div>
+	    </div>
+	    <div class="form-group">
+		    <label for="rating">rating</label>
+		    <input name="rating" id="rating" class="form-control" type="text" value=""/>
+		</div>
+		<div class="form-group">
+		    <label for="url">url</label>
+		    <input name="url" id="url"  class="form-control" type="url"  value=""/>
+		</div>
+		<button class ="btn">Add</button>
+		</form>
+		<hr/>
+
+		
+		<table id="cupcake_list" class="table">
+		    <tr><th>flavor</th><th>size</th><th>rating</th></tr>
+		</table>
+x
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+	    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+	    <script
+		src="https://code.jquery.com/jquery-3.6.4.js"
+		integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
+		crossorigin="anonymous"></script>
+	    <script src="/static/app.js"></script>
+    </body>
+</html>
